@@ -20,6 +20,12 @@ body{
     column-gap: 5px;
     flex-wrap: wrap;
 }
+.user{
+    position: relative;
+}
+.marginL{
+    margin-left: 20px;
+}
 /* header */
 #site_header{
     background-color: black;
@@ -40,9 +46,6 @@ header span{
     background-color: black;
     height: 89vh;
 }
-.user{
-    position: relative;
-}
 .user > p{
     position: absolute;
     color: white;
@@ -59,12 +62,31 @@ header span{
 }
 .footer_section{
     color: white;
+    padding: 10px 10px;
 }
-
+.box{
+    margin-right: 10px;
+}
+.element{
+    text-align: center;
+}
+.element i{
+    font-size: 2rem;
+}
+.element p{
+    margin-top: 5px;
+}
+.box > i{
+    margin-left: 20px;
+    align-self: flex-end;
+}
 .end{
     color: red;
     background-color: #4a4a4a;
-    padding: 0 20px;
+    padding: 0 10px;
     height: 100%;
     line-height: 7vh;
+}
+.green{
+    color: #4ac405;
 }
